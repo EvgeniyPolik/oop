@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class run_task3 {
+public class run_task3 implements I_Constant{  // Использование константы
 
     private static Scanner console = new Scanner(System.in);
 
@@ -39,7 +39,7 @@ public class run_task3 {
 
     private static void Welcome(Library lib) {
         while (true) {
-            System.out.println("Добро пожаловать в нашу библиотеку, выберете действие: ");
+            System.out.printf("Добро пожаловать в нашу библиотеку %s, выберете действие: \n", NAME_LIBRARY);  // Здесь константа
             System.out.println("1) Добавить книгу: ");
             System.out.println("2) Удалить книгу: ");
             System.out.println("3) Показать каталог: ");
