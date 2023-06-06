@@ -8,7 +8,7 @@ public class program {
         return b;
     }
     public static void main(String[] args) {
-        System.out.printf("Большее в лексеграфическом смысле из A и B: %s\n", getMax("A", "B"));
+        System.out.printf("Большее в лексикографическом порядке из A и B: %s\n", getMax("A", "B"));
         System.out.printf("Большее из чисел 5 и 7: %d\n", getMax(5, 7));
     }
 }
