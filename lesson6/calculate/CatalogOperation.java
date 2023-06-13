@@ -9,7 +9,7 @@ public class CatalogOperation implements I_CatalogOperation{
             CatalogOperation.put("+", (a, b) -> a + b);
             CatalogOperation.put("-", (a, b) -> a - b);
             CatalogOperation.put("*", (a, b) -> a * b);
-            CatalogOperation.put("/", (a, b) -> a / b);
+            CatalogOperation.put("**", (a, b) -> Math.pow(a, b));
         }
     return CatalogOperation;
     }
